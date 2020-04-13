@@ -62,8 +62,8 @@
     modifyDate,
     clearMilliseconds,
     timeWithinRange
-  } from 'element-ui/src/utils/date-util';
-  import Locale from 'element-ui/src/mixins/locale';
+  } from 'element-ui-lw-etc/src/utils/date-util';
+  import Locale from 'element-ui-lw-etc/src/mixins/locale';
   import TimeSpinner from '../basic/time-spinner';
 
   const MIN_TIME = parseDate('00:00:00', 'HH:mm:ss');
