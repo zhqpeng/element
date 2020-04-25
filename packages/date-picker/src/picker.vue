@@ -405,6 +405,7 @@ export default {
     },
     shortcutsLabels: {
       type: Array,
+      default: () => [],
     },
     pickerOptions: {},
     unlinkPanels: {
