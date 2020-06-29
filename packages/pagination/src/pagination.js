@@ -44,8 +44,8 @@ export default {
       }
     },
 
-    pagesizeTxet: String,
-    gotoTxet: String,
+    pagesizeText: String,
+    gotoText: String,
     pageClassifierText: String,
     totalText: String,
 
@@ -82,12 +82,12 @@ export default {
     }] }></div>;
     const TEMPLATE_MAP = {
       prev: <prev></prev>,
-      jumper: <jumper></jumper>,
+      jumper: <jumper gotoText={this.gotoText} pageClassifierText={this.pageClassifierText}></jumper>,
       pager: <pager currentPage={ this.internalCurrentPage } pageCount={ this.internalPageCount } pagerCount={ this.pagerCount } on-change={ this.handleCurrentChange } disabled={ this.disabled }></pager>,
       next: <next></next>,
-      sizes: <sizes pageSizes={ this.pageSizes }></sizes>,
+      sizes: <sizes pageSizes={ this.pageSizes } pagesizeText={this.pagesizeText}></sizes>,
       slot: <slot>{ this.$slots.default ? this.$slots.default : '' }</slot>,
-      total: <total></total>
+      total: <total totalText={this.totalText}></total>
     };
     const components = layout.split(',').map((item) => item.trim());
     const rightWrapper = <div class="el-pagination__rightwrapper"></div>;
@@ -156,7 +156,8 @@ export default {
       mixins: [Locale],
 
       props: {
-        pageSizes: Array
+        pageSizes: Array,
+        pagesizeText: String
       },
 
       watch: {
@@ -186,7 +187,7 @@ export default {
                 this.pageSizes.map(item =>
                   <el-option
                     value={ item }
-                    label={ item + this.pagesizeTxet }>
+                    label={ item + this.pagesizeText }>
                   </el-option>
                 )
               }
@@ -216,6 +217,11 @@ export default {
       mixins: [Locale],
 
       components: { ElInput },
+
+      props: {
+        gotoText: String,
+        pageClassifierText: String
+      },
 
       data() {
         return {
@@ -251,7 +257,7 @@ export default {
       render(h) {
         return (
           <span class="el-pagination__jump">
-            { this.gotoTxet }
+            { this.gotoText }
             <el-input
               class="el-pagination__editor is-in-pagination"
               min={ 1 }
@@ -270,6 +276,10 @@ export default {
 
     Total: {
       mixins: [Locale],
+
+      props: {
+        totalText: String
+      },
 
       render(h) {
         return (
