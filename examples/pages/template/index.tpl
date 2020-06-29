@@ -370,6 +370,7 @@
 </template>
 <script>
   import throttle from 'throttle-debounce/throttle';
+  import { addClass, removeClass } from 'element-ui-lw-param/src/utils/dom';
   
   export default {
     created() {

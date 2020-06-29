@@ -14,7 +14,7 @@
   </li>
 </template>
 <script>
-  import Emitter from 'element-ui/src/mixins/emitter';
+  import Emitter from 'element-ui-lw-param/src/mixins/emitter';
 
   export default {
     name: 'ElDropdownItem',

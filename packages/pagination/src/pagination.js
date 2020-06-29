@@ -1,9 +1,9 @@
 import Pager from './pager.vue';
-import ElSelect from 'element-ui/packages/select';
-import ElOption from 'element-ui/packages/option';
-import ElInput from 'element-ui/packages/input';
-import Locale from 'element-ui/src/mixins/locale';
-import { valueEquals } from 'element-ui/src/utils/util';
+import ElSelect from 'element-ui-lw-param/packages/select';
+import ElOption from 'element-ui-lw-param/packages/option';
+import ElInput from 'element-ui-lw-param/packages/input';
+import Locale from 'element-ui-lw-param/src/mixins/locale';
+import { valueEquals } from 'element-ui-lw-param/src/utils/util';
 
 export default {
   name: 'ElPagination',
@@ -43,6 +43,11 @@ export default {
         return [10, 20, 30, 40, 50, 100];
       }
     },
+
+    pagesizeTxet: String,
+    gotoTxet: String,
+    pageClassifierText: String,
+    totalText: String,
 
     popperClass: String,
 
@@ -181,7 +186,7 @@ export default {
                 this.pageSizes.map(item =>
                   <el-option
                     value={ item }
-                    label={ item + this.t('el.pagination.pagesize') }>
+                    label={ item + this.pagesizeTxet }>
                   </el-option>
                 )
               }
@@ -246,7 +251,7 @@ export default {
       render(h) {
         return (
           <span class="el-pagination__jump">
-            { this.t('el.pagination.goto') }
+            { this.gotoTxet }
             <el-input
               class="el-pagination__editor is-in-pagination"
               min={ 1 }
@@ -257,7 +262,7 @@ export default {
               nativeOnKeyup={ this.handleKeyup }
               onInput={ this.handleInput }
               onChange={ this.handleChange }/>
-            { this.t('el.pagination.pageClassifier') }
+            { this.pageClassifierText }
           </span>
         );
       }
@@ -269,7 +274,7 @@ export default {
       render(h) {
         return (
           typeof this.$parent.total === 'number'
-            ? <span class="el-pagination__total">{ this.t('el.pagination.total', { total: this.$parent.total }) }</span>
+            ? <span class="el-pagination__total">{ this.totalText }</span>
             : ''
         );
       }
