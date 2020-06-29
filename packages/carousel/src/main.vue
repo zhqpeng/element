@@ -56,7 +56,7 @@
 
 <script>
 import throttle from 'throttle-debounce/throttle';
-import { addResizeListener, removeResizeListener } from 'element-ui-lw-param/src/utils/resize-event';
+import { addResizeListener, removeResizeListener } from 'element-ui-lw-etc/src/utils/resize-event';
 
 export default {
   name: 'ElCarousel',

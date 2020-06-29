@@ -32,9 +32,9 @@
 </template>
 
 <script>
-  import { getFirstDayOfMonth, getDayCountOfMonth, getWeekNumber, getStartDateOfMonth, prevDate, nextDate, isDate, clearTime as _clearTime} from 'element-ui-lw-param/src/utils/date-util';
-  import Locale from 'element-ui-lw-param/src/mixins/locale';
-  import { arrayFindIndex, arrayFind, coerceTruthyValueToArray } from 'element-ui-lw-param/src/utils/util';
+  import { getFirstDayOfMonth, getDayCountOfMonth, getWeekNumber, getStartDateOfMonth, prevDate, nextDate, isDate, clearTime as _clearTime} from 'element-ui-lw-etc/src/utils/date-util';
+  import Locale from 'element-ui-lw-etc/src/mixins/locale';
+  import { arrayFindIndex, arrayFind, coerceTruthyValueToArray } from 'element-ui-lw-etc/src/utils/util';
 
   const WEEKS = ['sun', 'mon', 'tue', 'wed', 'thu', 'fri', 'sat'];
   const getDateTimestamp = function(time) {

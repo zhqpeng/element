@@ -1,4 +1,4 @@
-import { t } from 'element-ui-lw-param/src/locale';
+import { t } from 'element-ui-lw-etc/src/locale';
 
 export default {
   methods: {

@@ -40,9 +40,9 @@
 </template>
 <script>
   import AsyncValidator from 'async-validator';
-  import emitter from 'element-ui-lw-param/src/mixins/emitter';
-  import objectAssign from 'element-ui-lw-param/src/utils/merge';
-  import { noop, getPropByPath } from 'element-ui-lw-param/src/utils/util';
+  import emitter from 'element-ui-lw-etc/src/mixins/emitter';
+  import objectAssign from 'element-ui-lw-etc/src/utils/merge';
+  import { noop, getPropByPath } from 'element-ui-lw-etc/src/utils/util';
   import LabelWrap from './label-wrap';
   export default {
     name: 'ElFormItem',

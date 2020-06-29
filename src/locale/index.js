@@ -1,4 +1,4 @@
-import defaultLang from 'element-ui-lw-param/src/locale/lang/zh-CN';
+import defaultLang from 'element-ui-lw-etc/src/locale/lang/zh-CN';
 import Vue from 'vue';
 import deepmerge from 'deepmerge';
 import Format from './format';

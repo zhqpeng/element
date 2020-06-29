@@ -51,10 +51,10 @@
   import AlphaSlider from './alpha-slider';
   import Predefine from './predefine';
   import ColorList from './color-list';
-  import Popper from 'element-ui-lw-param/src/utils/vue-popper';
-  import Locale from 'element-ui-lw-param/src/mixins/locale';
-  import ElInput from 'element-ui-lw-param/packages/input';
-  import ElButton from 'element-ui-lw-param/packages/button';
+  import Popper from 'element-ui-lw-etc/src/utils/vue-popper';
+  import Locale from 'element-ui-lw-etc/src/mixins/locale';
+  import ElInput from 'element-ui-lw-etc/packages/input';
+  import ElButton from 'element-ui-lw-etc/packages/button';
 
   export default {
     name: 'el-color-picker-dropdown',

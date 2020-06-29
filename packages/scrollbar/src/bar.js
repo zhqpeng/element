@@ -1,4 +1,4 @@
-import { on, off } from 'element-ui-lw-param/src/utils/dom';
+import { on, off } from 'element-ui-lw-etc/src/utils/dom';
 import { renderThumbStyle, BAR_MAP } from './util';
 
 /* istanbul ignore next */

@@ -16,8 +16,8 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-ui-lw-param/src/mixins/emitter';
-  import { getValueByPath, escapeRegexpString } from 'element-ui-lw-param/src/utils/util';
+  import Emitter from 'element-ui-lw-etc/src/mixins/emitter';
+  import { getValueByPath, escapeRegexpString } from 'element-ui-lw-etc/src/utils/util';
 
   export default {
     mixins: [Emitter],

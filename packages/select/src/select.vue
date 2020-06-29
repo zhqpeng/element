@@ -134,22 +134,22 @@
 </template>
 
 <script type="text/babel">
-  import Emitter from 'element-ui-lw-param/src/mixins/emitter';
-  import Focus from 'element-ui-lw-param/src/mixins/focus';
-  import Locale from 'element-ui-lw-param/src/mixins/locale';
-  import ElInput from 'element-ui-lw-param/packages/input';
+  import Emitter from 'element-ui-lw-etc/src/mixins/emitter';
+  import Focus from 'element-ui-lw-etc/src/mixins/focus';
+  import Locale from 'element-ui-lw-etc/src/mixins/locale';
+  import ElInput from 'element-ui-lw-etc/packages/input';
   import ElSelectMenu from './select-dropdown.vue';
   import ElOption from './option.vue';
-  import ElTag from 'element-ui-lw-param/packages/tag';
-  import ElScrollbar from 'element-ui-lw-param/packages/scrollbar';
+  import ElTag from 'element-ui-lw-etc/packages/tag';
+  import ElScrollbar from 'element-ui-lw-etc/packages/scrollbar';
   import debounce from 'throttle-debounce/debounce';
-  import Clickoutside from 'element-ui-lw-param/src/utils/clickoutside';
-  import { addResizeListener, removeResizeListener } from 'element-ui-lw-param/src/utils/resize-event';
-  import { t } from 'element-ui-lw-param/src/locale';
-  import scrollIntoView from 'element-ui-lw-param/src/utils/scroll-into-view';
-  import { getValueByPath, valueEquals, isIE, isEdge } from 'element-ui-lw-param/src/utils/util';
+  import Clickoutside from 'element-ui-lw-etc/src/utils/clickoutside';
+  import { addResizeListener, removeResizeListener } from 'element-ui-lw-etc/src/utils/resize-event';
+  import { t } from 'element-ui-lw-etc/src/locale';
+  import scrollIntoView from 'element-ui-lw-etc/src/utils/scroll-into-view';
+  import { getValueByPath, valueEquals, isIE, isEdge } from 'element-ui-lw-etc/src/utils/util';
   import NavigationMixin from './navigation-mixin';
-  import { isKorean } from 'element-ui-lw-param/src/utils/shared';
+  import { isKorean } from 'element-ui-lw-etc/src/utils/shared';
 
   export default {
     mixins: [Emitter, Locale, Focus('reference'), NavigationMixin],

@@ -46,9 +46,9 @@
   </div>
 </template>
 <script>
-  import ElInput from 'element-ui-lw-param/packages/input';
-  import Focus from 'element-ui-lw-param/src/mixins/focus';
-  import RepeatClick from 'element-ui-lw-param/src/directives/repeat-click';
+  import ElInput from 'element-ui-lw-etc/packages/input';
+  import Focus from 'element-ui-lw-etc/src/mixins/focus';
+  import RepeatClick from 'element-ui-lw-etc/src/directives/repeat-click';
 
   export default {
     name: 'ElInputNumber',

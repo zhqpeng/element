@@ -9,21 +9,21 @@
   <a href="https://coveralls.io/github/ElemeFE/element?branch=master">
     <img src="https://coveralls.io/repos/github/ElemeFE/element/badge.svg?branch=master">
   </a>
-  <a href="https://cdnjs.com/libraries/element-ui-lw-param">
-    <img src="https://img.shields.io/cdnjs/v/element-ui-lw-param.svg">
+  <a href="https://cdnjs.com/libraries/element-ui-lw-etc">
+    <img src="https://img.shields.io/cdnjs/v/element-ui-lw-etc.svg">
   </a>
-  <a href="https://www.npmjs.org/package/element-ui-lw-param">
-    <img src="https://img.shields.io/npm/v/element-ui-lw-param.svg">
+  <a href="https://www.npmjs.org/package/element-ui-lw-etc">
+    <img src="https://img.shields.io/npm/v/element-ui-lw-etc.svg">
   </a>
-  <a href="https://npmcharts.com/compare/element-ui-lw-param?minimal=true">
-    <img src="http://img.shields.io/npm/dm/element-ui-lw-param.svg">
+  <a href="https://npmcharts.com/compare/element-ui-lw-etc?minimal=true">
+    <img src="http://img.shields.io/npm/dm/element-ui-lw-etc.svg">
   </a>
   <br>
-  <a href="http://img.badgesize.io/https://unpkg.com/element-ui-lw-param/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
-    <img src="http://img.badgesize.io/https://unpkg.com/element-ui-lw-param/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
+  <a href="http://img.badgesize.io/https://unpkg.com/element-ui-lw-etc/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
+    <img src="http://img.badgesize.io/https://unpkg.com/element-ui-lw-etc/lib/index.js?compression=gzip&label=gzip%20size:%20JS">
   </a>
-  <a href="http://img.badgesize.io/https://unpkg.com/element-ui-lw-param/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
-    <img src="http://img.badgesize.io/https://unpkg.com/element-ui-lw-param/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
+  <a href="http://img.badgesize.io/https://unpkg.com/element-ui-lw-etc/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
+    <img src="http://img.badgesize.io/https://unpkg.com/element-ui-lw-etc/lib/theme-chalk/index.css?compression=gzip&label=gzip%20size:%20CSS">
   </a>
   <a href="#backers">
     <img src="https://opencollective.com/element/backers/badge.svg">
@@ -87,13 +87,13 @@
 
 ## Install
 ```shell
-npm install element-ui-lw-param -S
+npm install element-ui-lw-etc -S
 ```
 
 ## Quick Start
 ``` javascript
 import Vue from 'vue'
-import Element from 'element-ui-lw-param'
+import Element from 'element-ui-lw-etc'
 
 Vue.use(Element)
 
@@ -102,7 +102,7 @@ import {
   Select,
   Button
   // ...
-} from 'element-ui-lw-param'
+} from 'element-ui-lw-etc'
 
 Vue.component(Select.name, Select)
 Vue.component(Button.name, Button)

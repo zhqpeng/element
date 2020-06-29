@@ -101,9 +101,9 @@
 </template>
 
 <script type="text/babel">
-  import { getRangeHours, getRangeMinutes, modifyTime } from 'element-ui-lw-param/src/utils/date-util';
-  import ElScrollbar from 'element-ui-lw-param/packages/scrollbar';
-  import RepeatClick from 'element-ui-lw-param/src/directives/repeat-click';
+  import { getRangeHours, getRangeMinutes, modifyTime } from 'element-ui-lw-etc/src/utils/date-util';
+  import ElScrollbar from 'element-ui-lw-etc/packages/scrollbar';
+  import RepeatClick from 'element-ui-lw-etc/src/directives/repeat-click';
 
   export default {
     components: { ElScrollbar },

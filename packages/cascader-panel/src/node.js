@@ -1,5 +1,5 @@
-import { isEqual, capitalize } from 'element-ui-lw-param/src/utils/util';
-import { isDef } from 'element-ui-lw-param/src/utils/shared';
+import { isEqual, capitalize } from 'element-ui-lw-etc/src/utils/util';
+import { isDef } from 'element-ui-lw-etc/src/utils/shared';
 
 let uid = 0;
 

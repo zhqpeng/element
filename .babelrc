@@ -29,9 +29,9 @@
       ],
       "plugins": [
         ["module-resolver", {
-          "root": ["element-ui-lw-param"],
+          "root": ["element-ui-lw-etc"],
           "alias": {
-            "element-ui-lw-param/src": "element-ui-lw-param/lib"
+            "element-ui-lw-etc/src": "element-ui-lw-etc/lib"
           }
         }]
       ]

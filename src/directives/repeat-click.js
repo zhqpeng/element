@@ -1,4 +1,4 @@
-import { once, on } from 'element-ui-lw-param/src/utils/dom';
+import { once, on } from 'element-ui-lw-etc/src/utils/dom';
 
 export default {
   bind(el, binding, vnode) {

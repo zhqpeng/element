@@ -19,8 +19,8 @@
 </template>
 
 <script type="text/babel">
-  import ElScrollbar from 'element-ui-lw-param/packages/scrollbar';
-  import scrollIntoView from 'element-ui-lw-param/src/utils/scroll-into-view';
+  import ElScrollbar from 'element-ui-lw-etc/packages/scrollbar';
+  import scrollIntoView from 'element-ui-lw-etc/src/utils/scroll-into-view';
 
   const parseTime = function(time) {
     const values = (time || '').split(':');

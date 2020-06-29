@@ -1,4 +1,4 @@
-export * from './element-ui-lw-param';
+export * from './element-ui-lw-etc';
 
-import * as ElementUI from './element-ui-lw-param';
+import * as ElementUI from './element-ui-lw-etc';
 export default ElementUI;

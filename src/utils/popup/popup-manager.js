@@ -1,5 +1,5 @@
 import Vue from 'vue';
-import { addClass, removeClass } from 'element-ui-lw-param/src/utils/dom';
+import { addClass, removeClass } from 'element-ui-lw-etc/src/utils/dom';
 
 let hasModal = false;
 let hasInitZIndex = false;

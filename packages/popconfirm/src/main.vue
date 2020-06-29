@@ -36,9 +36,9 @@
 </template>
 
 <script>
-import ElPopover from 'element-ui-lw-param/packages/popover';
-import ElButton from 'element-ui-lw-param/packages/button';
-import {t} from 'element-ui-lw-param/src/locale';
+import ElPopover from 'element-ui-lw-etc/packages/popover';
+import ElButton from 'element-ui-lw-etc/packages/button';
+import {t} from 'element-ui-lw-etc/src/locale';
 
 export default {
   name: 'ElPopconfirm',

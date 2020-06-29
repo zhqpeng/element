@@ -1,7 +1,7 @@
-import Popper from 'element-ui-lw-param/src/utils/vue-popper';
+import Popper from 'element-ui-lw-etc/src/utils/vue-popper';
 import debounce from 'throttle-debounce/debounce';
-import { addClass, removeClass, on, off } from 'element-ui-lw-param/src/utils/dom';
-import { generateId } from 'element-ui-lw-param/src/utils/util';
+import { addClass, removeClass, on, off } from 'element-ui-lw-etc/src/utils/dom';
+import { generateId } from 'element-ui-lw-etc/src/utils/util';
 import Vue from 'vue';
 
 export default {

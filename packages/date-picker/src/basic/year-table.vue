@@ -44,9 +44,9 @@
 </template>
 
 <script type="text/babel">
-  import { hasClass } from 'element-ui-lw-param/src/utils/dom';
-  import { isDate, range, nextDate, getDayCountOfYear } from 'element-ui-lw-param/src/utils/date-util';
-  import { arrayFindIndex, coerceTruthyValueToArray } from 'element-ui-lw-param/src/utils/util';
+  import { hasClass } from 'element-ui-lw-etc/src/utils/dom';
+  import { isDate, range, nextDate, getDayCountOfYear } from 'element-ui-lw-etc/src/utils/date-util';
+  import { arrayFindIndex, coerceTruthyValueToArray } from 'element-ui-lw-etc/src/utils/util';
 
   const datesInYear = year => {
     const numOfDays = getDayCountOfYear(year);

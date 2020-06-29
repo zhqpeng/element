@@ -1,9 +1,9 @@
 import Vue from 'vue';
 import loadingVue from './loading.vue';
-import { addClass, removeClass, getStyle } from 'element-ui-lw-param/src/utils/dom';
-import { PopupManager } from 'element-ui-lw-param/src/utils/popup';
-import afterLeave from 'element-ui-lw-param/src/utils/after-leave';
-import merge from 'element-ui-lw-param/src/utils/merge';
+import { addClass, removeClass, getStyle } from 'element-ui-lw-etc/src/utils/dom';
+import { PopupManager } from 'element-ui-lw-etc/src/utils/popup';
+import afterLeave from 'element-ui-lw-etc/src/utils/after-leave';
+import merge from 'element-ui-lw-etc/src/utils/merge';
 
 const LoadingConstructor = Vue.extend(loadingVue);
 

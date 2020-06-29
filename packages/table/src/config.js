@@ -1,4 +1,4 @@
-import { getPropByPath } from 'element-ui-lw-param/src/utils/util';
+import { getPropByPath } from 'element-ui-lw-etc/src/utils/util';
 
 export const cellStarts = {
   default: {
